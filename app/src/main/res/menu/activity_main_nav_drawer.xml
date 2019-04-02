@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_events"
+            android:icon="@drawable/ic_baseline_insert_invitation_24px"
+            android:title="@string/txt_im_my_events" />
+        <item
+            android:id="@+id/nav_all_events"
+            android:icon="@drawable/ic_baseline_date_range_24px"
+            android:title="@string/txt_im_all_events" />
+        <item
+            android:id="@+id/nav_refresh"
+            android:icon="@drawable/ic_baseline_autorenew_24px"
+            android:title="@string/txt_im_refresh" />
+        <item
+            android:id="@+id/nav_member"
+            android:title="@string/txt_im_member" />
+
+        <item
+            android:id="@+id/nav_medal"
+            android:visible="false"
+            android:icon="@drawable/ic_medal"
+            android:title="@string/txt_im_medal" />
+
+    </group>
+
+    <item android:title="@string/txt_options">
+        <menu>
+            <item
+                android:id="@+id/nav_addevent"
+                android:visible="false"
+                android:icon="@drawable/ic_outline_playlist_add_24px"
+                android:title="@string/txt_im_addevent" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_exit_to_app_24px"
+                android:title="@string/txt_im_logout" />
+            <item
+                android:id="@+id/nav_about"
+                android:visible="false"
+                android:icon="@drawable/ic_baseline_contact_support_24px"
+                android:title="@string/txt_im_about" />
+
+        </menu>
+    </item>
+</menu>

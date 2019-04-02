@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/im_my_events"
+        android:icon="@drawable/ic_baseline_insert_invitation_24px"
+        android:title="@string/txt_im_my_events"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/im_all_events"
+        android:icon="@drawable/ic_baseline_date_range_24px"
+        android:title="@string/txt_im_all_events"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/im_refresh"
+        android:icon="@drawable/ic_baseline_autorenew_24px"
+        android:title="@string/txt_im_refresh"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/im_member"
+        android:title="@string/txt_im_member"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/im_medal"
+        android:icon="@drawable/ic_medal"
+        android:visible="false"
+        android:title="@string/txt_im_medal" />
+    <group
+        android:checkableBehavior="none"
+        android:menuCategory="secondary">
+        <item
+            android:id="@+id/im_addevent"
+            android:visible="false"
+            android:icon="@drawable/ic_outline_playlist_add_24px"
+            android:title="@string/txt_im_addevent" />
+
+        <item
+            android:id="@+id/im_logout"
+            android:icon="@drawable/ic_baseline_exit_to_app_24px"
+            android:title="@string/txt_im_logout"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/im_about"
+            android:icon="@drawable/ic_baseline_contact_support_24px"
+            android:title="@string/txt_im_about"
+            android:visible="false"
+            app:showAsAction="never" />
+    </group>
+
+</menu>

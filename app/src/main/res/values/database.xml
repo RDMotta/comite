@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="user_master">add your key</string>
+    <string name="db_reference">add your reference ID</string>
+    <string name="db_storage_reference">add your storage ID</string>
+    <string name="table_events">_eventos</string>
+    <string name="table_user">_usuarios</string>
+    <string name="table_user_events">_eventos_usuarios</string>
+    <string name="table_profile">_perfis</string>
+    <string name="table_members">_membros</string>
+</resources>
